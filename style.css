@@ -1,0 +1,115 @@
+/*Colors and fonts */
+
+
+
+body {
+	background: #BCABAE;
+	color: #716969;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: 400px;
+
+
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	color: #2D2E2E;
+	font-size: 42px;
+	font-weight: 700;
+	letter-spacing: 0,4px;
+
+}
+
+h2{
+	color: #0F0F0F;
+	font-size: 25px;
+	font-weight: lighter;
+	font-weight: 500;
+	letter-spacing: 0,3px;
+
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #716969;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #0F0F0F;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 1100px;
+	margin: 50px auto;
+}
+@media (max-width: 1100px) {
+	.container {
+		width: auto;
+	}
+}
+
+
+.card-white {
+	background-color: #FBFBFB;
+	padding: 40px ;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
+	border-radius: 6px;
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.image-square {
+	border-radius: 4%;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btn-grey {
+	background-color: #2D2E2E;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-grey: hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #2D2E2E;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+
+
+/* design ajustement */
+
+#Introduction p {
+	margin-bottom: 40px;
+}
